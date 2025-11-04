@@ -13,10 +13,10 @@ public class Program6 {
             int diff = Math.abs(ch1-ch2) ;
             sum = sum +diff ;
         }
-     if (a.length()%2 != 0){
-         int ch3 = a.charAt(a.length()/2)-64 ;
-         sum = sum+ch3;
-     }
-     System.out.println(sum);
+        if (a.length()%2 != 0){
+            int ch3 = a.charAt(a.length()/2)-64 ;
+            sum = sum+ch3;
+        }
+        System.out.println(sum);
     }
 }

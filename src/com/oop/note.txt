@@ -1,0 +1,59 @@
+Object Oriented Programing  (most imp )
+____________________________________________________
+
+1. Java is a class based language .
+2. Java class consit 5 eliment :
+     1. Variable
+     2. Method
+     3. Constructor
+     4. Blocks
+     5. Inner Class ( nested class )
+
+ Example :
+
+         class <class name >
+         {
+              1. Variable
+              2. Method
+              3. Constructor
+              4. Blocks
+              5. Inner Class ( nested class )
+         }
+
+ 3.1--> Variables :
+
+    A>  Variables are used to stroe data / value
+
+    Example :
+             int roll nom = 100 ;
+             where 'reollno'  is a variable that stores 100 (value/ data /  constant ) .
+
+   B> there are the  three type of variable
+       * Lcal Varible (LV) :
+
+          |- LV are define inside the Method / Constructor  / Block .
+          |- Calling of  LV  depend on : When  Method / Constructor  / Block .
+          |- Memory Allocation : Stack
+
+       *Instant Varible :
+
+          |- IV are define inside Class but outside  the Method / Constructor  / Block .
+          |- Calling of  LV  depend on : Object  .
+          |- Memory Allocation : Heap
+          |- How many times memory will creat : Depend opone number on object , if we hve three object of a class  then 3 times
+                                                memory will create for single IV .
+
+                * if we have
+       * static Variable :
+
+          |-  SV are define inside the Method / Constructor  / Block  with  prefix static .
+          |-  Calling of  SV  depend on : Class .
+          |- Memory Allocation : Non-Heap
+          |- How many times memory will creat : one time
+
+   C>   Example :
+          Program 1 .
+
+4. Methods
+
+   a.
