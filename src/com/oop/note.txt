@@ -56,4 +56,46 @@ ____________________________________________________
 
 4. Methods
 
-   a.
+   a.Methods are used to write the logic of the program .
+   a1.Unit testing apply on method
+   b.There are two types of method
+       |- Instant method or Non -Static method
+       |- Static Method
+
+ Example :
+      Program2
+
+Calling Rules
+--------------------
+ 1. Instance Method -------Directly--------> Instance Mathod/Variable .
+ 2. Static Method ---------oject--------> Instance Mathod/Variable .
+ 3. Instance Method -------Classname-------->Static Method .
+ 4. Static Method   -------Classname-------->Static Method .
+
+Examples:
+
+    Program3
+
+Q.  How to creat Object of a class
+A.  There are 4 types of  object
+      |- Named Object
+      |- Nameless Object
+      |- Instance Fectory Method
+      |- Static Fectory Method
+
+  ---------------------------------------
+      |- Named Object
+      Syntex :
+
+            classs-name object name = new constructor -name();
+
+      Example :
+           Program4 obj1 = Program4();
+
+      |- Nameless Object
+       Syntex :
+
+              new constructor -name();
+
+            Example :
+                  Program4();
