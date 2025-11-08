@@ -1,0 +1,53 @@
+Recursion**********************
+------------------------------
+
+1. Method calling itself directly or indirectly
+2. Types of Recursion.
+
+         |- Indirect Recursion .
+
+             A() --->B()---->C()----->A()
+
+        *|- Direct Recursion .
+
+              |- Tell  Recursion
+              |- Head Recursion
+              |- Tree Recursion
+              |- Nested Recursion
+
+3. If we stop the recursive calling , we can use Base Condition .
+
+ Tell  Recursion
+ -------------------
+
+1. If a recursive calling statmen is thr last statment in the method , so we can say that  Tell  Recursion
+2. Approach :  Top-Down Approach
+   Example :
+   Program1
+
+      public class Program1 {
+          static void m1(int num)
+          {
+              if(num>0){
+                  System.out.print(num);
+                  m1(num-1);
+              }
+          }
+
+Head Recursion
+-----------------
+
+1. If a recursive calling statmen is thr First statment in the method , so we can say that  Tell  Recursion
+2. Approach : Bottom-Up approach
+   Example :
+      Program2
+
+
+ Tree Recursion
+ ---------------------
+
+ 1. If there are moree then one recursive calling statmen is thr First statment in the method , so we can say that  Tree  Recursion
+ 2. Approach : Tree Approach
+    Example :
+       Program3
+

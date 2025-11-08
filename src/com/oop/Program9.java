@@ -3,9 +3,11 @@ package com.stringexamples.com.oop;
 public class Program9 {
     static int display (int a, int b )
     {
-        System.out.println("hello"); // 1
+        System.out.println("hello");
+
     }
-    static void  show (int a) {
+    static void  show (int a)
+    {
         System.out.println("hi");
     }
     static void visible (int...a) // var-args perameter
