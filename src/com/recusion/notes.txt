@@ -51,3 +51,7 @@ Head Recursion
     Example :
        Program3
 
+Nested Recursion
+-----------------------
+
+ 1. Recursive calling statmen inside the statment

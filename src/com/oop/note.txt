@@ -20,6 +20,15 @@ ____________________________________________________
               5. Inner Class ( nested class )
          }
 
+===========================================================================================================
+
+
+
+
+
+
+
+
  3.1--> Variables :
 
     A>  Variables are used to stroe data / value
@@ -53,6 +62,14 @@ ____________________________________________________
 
    C>   Example :
           Program 1 .
+
+==================================================================================================================
+
+
+
+
+
+
 
 4. Methods
 
@@ -99,3 +116,33 @@ A.  There are 4 types of  object
 
             Example :
                   Program4();
+
+======================================================================================================
+
+
+
+
+
+  5. CONSTRUCTORS
+  ---------------------------
+  1. Constructor is a special type of method which is invoked implicitly (autometically called ) at the time of object creation .
+  2. it is use tp initialize object .
+  3. It is also use to initialize Instance Variables by using default values.
+
+         data type               default values
+         -------------------------------------------
+
+         byte, short, int, long           0
+         double, float                    0.0
+         boolean                          false
+         char                             1 space
+         String                           null
+
+         --------------------------------------------
+
+  4. Type of Constructor
+
+   |- Default Constructor
+       ---> Zero Parameter [Compiler]
+   |- User Define Constructor
+      ---> Zero or more theen Zero Parameterized
