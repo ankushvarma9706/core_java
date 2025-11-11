@@ -146,3 +146,22 @@ A.  There are 4 types of  object
        ---> Zero Parameter [Compiler]
    |- User Define Constructor
       ---> Zero or more theen Zero Parameterized
+   5. Contructor name and Class name should be same
+   6. Contructor are able to pass parameters
+   7. Contructor doesn't have any return type
+
+   8. Examples :
+      Program12
+
+      Program15 : Diff B/W implicit and Explicit .
+      Porgram16 : How constructor used to initialized IV
+      Porgram17
+      Porgram18
+      Porgram19
+      Porgram20
+      Porgram21 : 'this' keyword : it is reperesnt as current class object
+                     |- we can use 'this' keyword
+                           |- Variable
+                           |- method
+                           |-Constructor
+                                |- 'this' should be first statement in constructor

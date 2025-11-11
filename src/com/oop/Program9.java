@@ -1,11 +1,10 @@
 package com.stringexamples.com.oop;
 
 public class Program9 {
-    static int display (int a, int b )
-    {
-        System.out.println("hello");
+    static int display (int a , int b ) {
+       return "Hello" ;
 
-    }
+     }
     static void  show (int a)
     {
         System.out.println("hi");
