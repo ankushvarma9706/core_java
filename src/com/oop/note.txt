@@ -165,3 +165,70 @@ A.  There are 4 types of  object
                            |- method
                            |-Constructor
                                 |- 'this' should be first statement in constructor
+
+
+  =================================================================================================
+
+
+
+
+
+
+ 6. Blocks .
+
+ 1. Blocks are used to write common logics
+ 2. Typea of Blocks
+      |- Instance BLocks
+
+           |- Syntex :
+                     {
+                     // Statements
+                     }
+          |- IB logic are common for all Object
+          |- IB execute at the time of object creation .
+      |- Static Blocks
+          |- Syntex :
+               static {
+                // Statement
+               }
+          |- Static Blocks logic are common for all Class
+          |- Static Blocks  at the time of class file loaded .
+
+ 3. Example :
+
+        Program23
+        Program24
+
+==========================================================================================================================
+
+
+
+
+
+
+
+7.Inner Class
+
+1. CLass inside another Class is known as Inner Class
+2. Non-static Nested class is Inner Class
+ Syntex :
+    class outer
+    {
+     ...........
+     class inner
+     {
+     .............
+     }
+    }
+
+3. Inner class can access all the member/ element of Outer class .
+
+Examples :
+     Outer1
+     .
+     .
+     .
+     .
+     .
+     Outer7
+

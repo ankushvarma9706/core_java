@@ -20,7 +20,7 @@ Recursion**********************
  Tell  Recursion
  -------------------
 
-1. If a recursive calling statmen is thr last statment in the method , so we can say that  Tell  Recursion
+1. If a recursive calling statemen is thr last statement in the method , so we can say that  Tell  Recursion
 2. Approach :  Top-Down Approach
    Example :
    Program1
