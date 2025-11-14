@@ -1,4 +1,4 @@
-Object Oriented Programing  (most imp )
+Object Orianted Programing  (most imp )
 ____________________________________________________
 
 1. Java is a class based language .

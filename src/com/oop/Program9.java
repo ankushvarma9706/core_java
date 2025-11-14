@@ -1,4 +1,4 @@
-package com.stringexamples.com.oop;
+/*package com.stringexamples.com.oop;
 
 public class Program9 {
     static int display (int a , int b ) {
@@ -19,3 +19,4 @@ public class Program9 {
         Program9.visible( 10,20,30,40,50);
     }
 }
+*/

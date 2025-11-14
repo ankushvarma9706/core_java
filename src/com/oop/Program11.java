@@ -12,6 +12,6 @@ public class Program11 {
 
     public static void main(String[] args)
     {
-        Program9.visible( 10,20,30,40,50);
+//        Program9.visible( 10,20,30,40,50);
     }
 }

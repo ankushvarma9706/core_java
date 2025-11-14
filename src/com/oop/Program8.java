@@ -1,4 +1,4 @@
-package com.stringexamples.com.oop;
+/*package com.stringexamples.com.oop;
 
 public class Program8 {
     static int display (int a, int b )
@@ -14,4 +14,4 @@ static void  show (int a) {
         Program8.display( 10, 20 );
         Program8.show( 80);
     }
-}
+} */
