@@ -1,0 +1,29 @@
+Abstraction
+------------------
+1. It is a process in which hiding implementation and showing only functionality to the use
+2. Abstraction can be achieved  by
+     |- Abstract Class
+     |- Interface
+
+
+Abstract Class
+================
+1. If we  assign 'abstract' keyword of the class , then we can say that class is  an Abstract Class .
+2. Abstract Class  consist abstract method and non-abstract method .
+
+        abstract method |-  abstract void show();
+
+    non-abstract method |-   void show()
+                             {
+
+                             }
+
+  3. If we create an abstract class it is compulsory to create a child class of that abstract class .
+  4. Child class is responsible  to override the  abstract method .
+  5. We cant create an  object of abstract class .
+  6.
+
+  Example :
+         Test1
+         Test2
+         Test3
