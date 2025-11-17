@@ -1,6 +1,6 @@
 Abstraction
 ------------------
-1. It is a process in which hiding implementation and showing only functionality to the use
+1. It is a process in which hiding implementation and showing only functionality to the user
 2. Abstraction can be achieved  by
      |- Abstract Class
      |- Interface
@@ -27,3 +27,25 @@ Abstract Class
          Test1
          Test2
          Test3
+         Test5.java
+
+=====================================================================================
+
+
+
+
+
+Interfaces
+-------------
+1. It is use to achieve Abstraction .
+2. It is also use to achieve Multiple Inheritance .
+3. By using interface, program become loosely coupled .
+4. Syntax :
+    interface (interface-name)
+    {
+    // elements
+    }
+
+5. Relation B/W Classes and interfaces .
+6. Internal details of Interface .
+7. We cant create objects of interfaces .

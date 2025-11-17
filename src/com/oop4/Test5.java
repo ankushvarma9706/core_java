@@ -1,6 +1,4 @@
-package com.stringexamples.com.oop3;
-
-import com.stringexamples.com.oop4.Test3;
+package com.stringexamples.com.oop4;
 
 public abstract class Test5 {
     abstract void show();
