@@ -2,7 +2,7 @@ Object Orianted Programing  (most imp )
 ____________________________________________________
 
 1. Java is a class based language .
-2. Java class consit 5 eliment :
+2. Java class consist 5 element :
      1. Variable
      2. Method
      3. Constructor
@@ -31,34 +31,34 @@ ____________________________________________________
 
  3.1--> Variables :
 
-    A>  Variables are used to stroe data / value
+    A>  Variables are used to store data / value
 
     Example :
              int roll nom = 100 ;
-             where 'reollno'  is a variable that stores 100 (value/ data /  constant ) .
+             where 'roll nom'  is a variable that stores 100 (value/ data /  constant ) .
 
    B> there are the  three type of variable
-       * Lcal Varible (LV) :
+       * Local Variable (LV) :
 
           |- LV are define inside the Method / Constructor  / Block .
           |- Calling of  LV  depend on : When  Method / Constructor  / Block .
           |- Memory Allocation : Stack
 
-       *Instant Varible :
+       *Instant Variable :
 
           |- IV are define inside Class but outside  the Method / Constructor  / Block .
-          |- Calling of  LV  depend on : Object  .
+          |- Calling of IV  depend on : Object  .
           |- Memory Allocation : Heap
-          |- How many times memory will creat : Depend opone number on object , if we hve three object of a class  then 3 times
+          |- How many times memory will create : Depend opone number on object , if we have three object of a class  then 3 times
                                                 memory will create for single IV .
 
-                * if we have
+
        * static Variable :
 
           |-  SV are define inside the Method / Constructor  / Block  with  prefix static .
           |-  Calling of  SV  depend on : Class .
           |- Memory Allocation : Non-Heap
-          |- How many times memory will creat : one time
+          |- How many times memory will create : one time
 
    C>   Example :
           Program 1 .
@@ -125,7 +125,7 @@ A.  There are 4 types of  object
 
   5. CONSTRUCTORS
   ---------------------------
-  1. Constructor is a special type of method which is invoked implicitly (autometically called ) at the time of object creation .
+  1. Constructor is a special type of method which is invoked implicitly (automatically called ) at the time of object creation .
   2. it is use tp initialize object .
   3. It is also use to initialize Instance Variables by using default values.
 
@@ -145,26 +145,26 @@ A.  There are 4 types of  object
    |- Default Constructor
        ---> Zero Parameter [Compiler]
    |- User Define Constructor
-      ---> Zero or more theen Zero Parameterized
-   5. Contructor name and Class name should be same
-   6. Contructor are able to pass parameters
-   7. Contructor doesn't have any return type
+      ---> Zero or more than Zero Parameterized
+   5. Constructor name and Class name should be same
+   6. Constructor are able to pass parameters
+   7. Constructor doesn't have any return type
 
    8. Examples :
       Program12
 
       Program15 : Diff B/W implicit and Explicit .
-      Porgram16 : How constructor used to initialized IV
-      Porgram17
-      Porgram18
-      Porgram19
-      Porgram20
-      Porgram21 : 'this' keyword : it is reperesnt as current class object
+      Program16 : How constructor used to initialized IV
+      Program17
+      Program18
+      Program19
+      Program20
+      Program21 : 'this' keyword : It is represented as current class object
                      |- we can use 'this' keyword
-                           |- Variable
-                           |- method
-                           |-Constructor
-                                |- 'this' should be first statement in constructor
+                      --|- Variable
+                      --|- method
+                      --|-Constructor
+                              --> 'this' should be first statement in constructor
 
 
   =================================================================================================
